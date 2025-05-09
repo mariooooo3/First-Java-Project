@@ -11,14 +11,14 @@ Un joc de luptă în care **Magi**, **Războinici** și **Arcași** se confrunt�
 
 ## 🧱 Structura Codului
 
-- [`Caracter.java`](Caracter.java) – Clasa de bază cu proprietăți comune  
-- `Mag.java` – Subclasă cu abilități specifice pentru Magi  
-- `Razboinic.java` – Subclasă cu abilități specifice pentru Războinici  
-- `Arcas.java` – Subclasă cu abilități specifice pentru Arcași  
-- [`Meci.java`](Meci.java) – Clasa de bază pentru meciuri  
-- `OneVsOne.java` – Duel între 2 luptători  
-- `AllForOne.java` – Meci între mai mulți luptători și un boss  
-- [`MiniGame.java`](MiniGame.java) – Punctul de pornire al jocului  
+- [`Caracter.java`](joc/Caracter.java) – Clasa de bază cu proprietăți comune  
+- [`Mag.java`](joc/Mag.java) – Subclasă cu abilități specifice pentru Magi  
+- [`Razboinic.java`](joc/Razboinic.java) – Subclasă cu abilități specifice pentru Războinici  
+- [`Arcas.java`](joc/Arcas.java) – Subclasă cu abilități specifice pentru Arcași  
+- [`Meci.java`](joc/Meci.java) – Clasa de bază pentru meciuri  
+- [`OneVsOne.java`](joc/OneVsOne.java) – Duel între 2 luptători  
+- [`AllForOne.java`](joc/AllForOne.java) – Meci între mai mulți luptători și un boss  
+- [`MiniGame.java`](joc/MiniGame.java) – Punctul de pornire al jocului  
 
 ## ⚔️ Descrierea Meciurilor
 
