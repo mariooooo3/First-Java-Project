@@ -1,0 +1,163 @@
+{
+  "game": {
+    "name": "MiniGame",
+    "description": "În acest joc de luptă, trei tipuri de luptători se confruntă într-o arenă epică pentru a obține supremația! ⚔️",
+    "rules": [
+      "Fiecare luptător are abilități unice",
+      "Confruntările pot fi 1v1 sau toți contra un boss",
+      "Se luptă până când unul rămâne fără viață"
+    ],
+    "characters": [
+      {
+        "name": "Veigar",
+        "type": "Mag",
+        "viata": 100,
+        "atac": 25,
+        "mana": 30,
+        "armura": 20,
+        "manaMaxima": 30
+      },
+      {
+        "name": "Malhazar",
+        "type": "Mag",
+        "viata": 100,
+        "atac": 30,
+        "mana": 30,
+        "armura": 55,
+        "manaMaxima": 30
+      },
+      {
+        "name": "Viktor",
+        "type": "Mag",
+        "viata": 100,
+        "atac": 75,
+        "mana": 10,
+        "armura": 25,
+        "manaMaxima": 10
+      },
+      {
+        "name": "Sett",
+        "type": "Razboinic",
+        "viata": 100,
+        "atac": 20,
+        "critica": 3,
+        "energie": 10
+      },
+      {
+        "name": "Darius",
+        "type": "Razboinic",
+        "viata": 100,
+        "atac": 15,
+        "critica": 3,
+        "energie": 10
+      },
+      {
+        "name": "Olaf",
+        "type": "Razboinic",
+        "viata": 100,
+        "atac": 50,
+        "critica": 5,
+        "energie": 10
+      },
+      {
+        "name": "Urgot",
+        "type": "Razboinic",
+        "viata": 100,
+        "atac": 35,
+        "critica": 4,
+        "energie": 10
+      },
+      {
+        "name": "Ashe",
+        "type": "Arcas",
+        "viata": 100,
+        "atac": 20,
+        "nrSageti": 7,
+        "precizie": 50
+      },
+      {
+        "name": "Lux",
+        "type": "Arcas",
+        "viata": 100,
+        "atac": 30,
+        "nrSageti": 6,
+        "precizie": 70
+      },
+      {
+        "name": "Jhin",
+        "type": "Arcas",
+        "viata": 100,
+        "atac": 30,
+        "nrSageti": 3,
+        "precizie": 70
+      },
+      {
+        "name": "Thanos",
+        "type": "Boss",
+        "viata": 350,
+        "atac": 50,
+        "armura": 50,
+        "precizie": 20,
+        "critica": 2
+      }
+    ],
+    "matches": [
+      {
+        "type": "OneVsOne",
+        "luptatori": [
+          {
+            "name": "Veigar",
+            "type": "Mag"
+          },
+          {
+            "name": "Sett",
+            "type": "Razboinic"
+          }
+        ],
+        "numarMaxSpectatori": 4,
+        "durataLuptei": 2.30
+      },
+      {
+        "type": "OneVsOne",
+        "luptatori": [
+          {
+            "name": "Darius",
+            "type": "Razboinic"
+          },
+          {
+            "name": "Ashe",
+            "type": "Arcas"
+          }
+        ],
+        "numarMaxSpectatori": 3,
+        "durataLuptei": 2.30
+      },
+      {
+        "type": "AllForOne",
+        "luptatori": [
+          {
+            "name": "Olaf",
+            "type": "Razboinic"
+          },
+          {
+            "name": "Urgot",
+            "type": "Razboinic"
+          }
+        ],
+        "boss": {
+          "name": "Thanos",
+          "type": "Boss",
+          "viata": 350,
+          "atac": 50
+        },
+        "numarMaxSpectatori": 10,
+        "durataLuptei": 10.00
+      }
+    ],
+    "statistics": {
+      "totalMagi": 3,
+      "totalRazboinici": 4,
+      "totalArcas": 3
+    }
+  }
+}
