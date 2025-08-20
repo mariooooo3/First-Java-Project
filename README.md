@@ -1,34 +1,47 @@
-# Joc de Luptă – Proiect Java
+# First Java Project 🎮
 
-Un joc de luptă în care **Magi**, **Războinici** și **Arcași** se confruntă într-o arenă. Există două tipuri de meciuri: **OneVsOne** și **AllForOne** (toți contra unui boss).
+Acesta este un proiect de joc în Java care simulează lupte între diferiți luptători. Proiectul este organizat pe pachete pentru **entități**, **meciuri** și **jocul principal**.  
 
-## 🧠 Caracteristici
+---
 
-- **Magi**: Abilități magice, regenerare de mană  
-- **Războinici**: Lovituri critice, gestionare energie  
-- **Arcași**: Atacuri la distanță, gestionare săgeți  
-- **Boss**: Puteri speciale, regenerare viață  
+## Structura proiectului
 
-## 🧱 Structura Codului
+- **[Entitati](Entitati/)** – Clasele pentru diferitele tipuri de personaje:
+  - [Caracter.java](Entitati/Caracter.java)
+  - [Mag.java](Entitati/Mag.java)
+  - [Razboinic.java](Entitati/Razboinic.java)
+  - [Arcas.java](Entitati/Arcas.java)
+  - [Boss.java](Entitati/Boss.java)
 
-- [`Caracter.java`](joc/Caracter.java) – Clasa de bază cu proprietăți comune  
-- `Mag.java` – Subclasă cu abilități specifice pentru Magi  
-- `Razboinic.java` – Subclasă cu abilități specifice pentru Războinici  
-- `Arcas.java` – Subclasă cu abilități specifice pentru Arcași  
-- [`Meci.java`](joc/Meci.java) – Clasa de bază pentru tipurile de meci  
-- `OneVsOne.java` – Duel între 2 luptători  
-- `AllForOne.java` – Meci între mai mulți luptători și un boss  
-- [`MiniGame.java`](joc/MiniGame.java) – Punctul de pornire al jocului  
+- **[Meci](Meci/)** – Clase pentru mecanica de lupte:
+  - [Meci.java](Meci/Meci.java)
+  - [OneVsOne.java](Meci/OneVsOne.java)
+  - [AllForOne.java](Meci/AllForOne.java)
 
-## ⚔️ Descrierea Meciurilor
+- **[Joc](Joc/)** – Clase pentru jocul propriu-zis și fișiere JSON:
+  - [Main.java](Joc/Main.java)
+  - [MiniGame.java](Joc/MiniGame.java)
+  - [JSON.json](Joc/JSON.json)
+  - [test1.json](Joc/test1.json)
 
-- **OneVsOne**: Un meci între 2 luptători (Mag, Războinic sau Arcaș)  
-- **AllForOne**: Mai mulți luptători se unesc pentru a înfrunta un boss puternic  
+---
 
-## ▶️ Instalare și Rulare
+## Funcționalități
+
+- **Entități diferite**: `Mag`, `Razboinic`, `Arcas`, `Boss`.
+- **Meciuri între caractere**:
+  - `OneVsOne`: Duel între doi luptători.
+  - `AllForOne`: Lupte cu mai mulți participanți.
+- **Alegerea atacurilor**: Fiecare luptător poate folosi atacuri diferite, în funcție de tipul său.
+- **Statistici și victorii**: Sistem de urmărire a vieții și a victoriilor pentru fiecare luptător.
+- **Fișiere JSON**: Pentru a salva și încărca progresul jocului.
+
+---
+
+## Cum să rulezi proiectul
+
+1. Clonează proiectul:
 
 ```bash
-git clone https://github.com/mariooooo3/First-Java-Project.git
-cd First-Java-Project/joc
-javac *.java
-java MiniGame
+git clone <link-repo-tău>
+cd First-Java-Project
