@@ -10,13 +10,31 @@
       "manaMaxima": 30
     },
     {
-      "name": "Malhazar",
-      "type": "Mag",
+      "name": "Sett",
+      "type": "Razboinic",
       "viata": 100,
-      "atac": 30,
-      "mana": 30,
-      "armura": 55,
-      "manaMaxima": 30
+      "atac": 20,
+      "critica": 6,
+      "energie": 10
+    },
+    {
+      "name": "Darius",
+      "type": "Razboinic",
+      "viata": 100,
+      "atac": 15,
+      "critica": 3,
+      "energie": 10
+    },
+    {
+      "name": "Ashe",
+      "type": "Arcas",
+      "viata": 100,
+      "atac": 20,
+      "nrSageti": 7,
+      "precizie": 50
     }
+  ],
+  "matches": [
+    { "type": "OneVsOne" }
   ]
 }
