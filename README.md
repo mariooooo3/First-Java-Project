@@ -20,6 +20,7 @@ Acesta este un proiect de joc în Java care simulează lupte între diferiți lu
 
 - **[Joc](Joc/)** – Clase pentru jocul propriu-zis și fișiere JSON:
   - [Main.java](Joc/Main.java)
+  - [JsonMain.java](Joc/JsonMain.java)
   - [MiniGame.java](Joc/MiniGame.java)
   - [JSON.json](Joc/JSON.json)
   - [test1.json](Joc/test1.json)
@@ -35,6 +36,7 @@ Acesta este un proiect de joc în Java care simulează lupte între diferiți lu
 - **Alegerea atacurilor**: Fiecare luptător poate folosi atacuri diferite, în funcție de tipul său.
 - **Statistici și victorii**: Sistem de urmărire a vieții și a victoriilor pentru fiecare luptător.
 - **Fișiere JSON**: Pentru a salva și încărca progresul jocului.
+- `test1.json` – Fișier JSON de test
 
 ---
 
